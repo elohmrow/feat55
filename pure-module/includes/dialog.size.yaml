@@ -1,0 +1,22 @@
+name: size
+class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+label: Component width
+options:
+  - label: 20%
+    value: pure-u-md-1-5
+  - label: 25%
+    value: pure-u-md-1-4  
+  - label: 40%
+    value: pure-u-md-2-5
+  - label: 50%
+    value: pure-u-md-1-2
+  - label: 75%
+    value: pure-u-md-3-4
+  - label: 80%
+    value: pure-u-md-4-5
+  - label: 100%
+    value: pure-u-md-5-5
+  - label: 67%
+    value: pure-u-md-16-24  
+  - label: 33%
+    value: pure-u-md-8-24  

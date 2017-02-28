@@ -1,0 +1,6 @@
+form:
+  tabs:
+    - name: size
+      label: Size
+      fields:
+        - !include /pure-module/includes/dialog.size.yaml

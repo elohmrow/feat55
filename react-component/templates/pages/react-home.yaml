@@ -1,0 +1,11 @@
+title: react-home
+templateScript: /react-component/templates/pages/react-home.ftl
+renderType: freemarker
+dialog: react-component:pages/react-home
+visible: true
+
+areas:
+  main:
+    availableComponents:
+      react-component:
+        id: react-component:components/react-component

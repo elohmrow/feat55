@@ -1,0 +1,7 @@
+title: react-component
+renderType: freemarker
+templateScript: /react-component/templates/components/react-component.ftl
+dialog: react-component:components/react-component
+variations:
+  js:
+    templateScript: /react-component/templates/components/react-component.js

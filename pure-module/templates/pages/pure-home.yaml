@@ -1,0 +1,25 @@
+title: pure-home
+templateScript: /pure-module/templates/pages/pure-home.ftl
+renderType: freemarker
+dialog: pure-module:pages/pure-home
+visible: true
+areas:
+  grid:
+    templateScript: /pure-module/templates/areas/grid.ftl
+    availableComponents:
+      html:
+        id: mtk:components/html
+      link:
+        id: mtk:components/link
+      textImage:
+        id: mtk:components/textImage
+      image:
+        id: mtk:components/image
+      linkList:
+        id: mtk:components/linkList
+      teaser:
+        id: mtk:components/teaser
+      pageIntro:
+        id: mtk:components/pageIntro 
+      video:
+        id: mtk:components/video 

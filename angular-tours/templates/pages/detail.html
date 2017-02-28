@@ -1,0 +1,7 @@
+<a href="" ng-click="go_back()">back to list</a>
+<div>
+    <h1> {{ item.name }} </h1>
+    <p> {{ item.description }} </p>
+    <div ng-bind-html="item.body"></div> <!-- this is why we need angular-sanitize.js -->
+    <img ng-src=" {{ item.image['@link'] }}"  width="100%" />
+</div>

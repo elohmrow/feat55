@@ -1,0 +1,11 @@
+title: angular-home
+templateScript: /angular-tours/templates/pages/angular-home.ftl
+renderType: freemarker
+dialog: angular-tours:pages/angular-home
+visible: true
+variations:
+  js:
+    templateScript: /angular-tours/templates/pages/angular-home-js.ftl
+areas:
+  tours:
+    templateScript: /angular-tours/templates/pages/tours-area.ftl
